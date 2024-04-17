@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF2BAE872A292AC200906257 /* GenderPie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2BAE862A292AC200906257 /* GenderPie.swift */; };
+		BF805F202A0C03340034450E /* GODEX_ProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF805F1F2A0C03340034450E /* GODEX_ProApp.swift */; };
+		BF805F222A0C03340034450E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF805F212A0C03340034450E /* ContentView.swift */; };
+		BF805F242A0C03350034450E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF805F232A0C03350034450E /* Assets.xcassets */; };
+		BF805F272A0C03350034450E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF805F262A0C03350034450E /* Preview Assets.xcassets */; };
+		BF805F2E2A0C2F900034450E /* file_names.json in Resources */ = {isa = PBXBuildFile; fileRef = BF805F2D2A0C2F900034450E /* file_names.json */; };
+		BF805F302A0C35010034450E /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF805F2F2A0C35010034450E /* APIHandler.swift */; };
+		BF805F322A0C670B0034450E /* APIStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF805F312A0C670B0034450E /* APIStructs.swift */; };
+		BF805F352A0C67960034450E /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF805F342A0C67960034450E /* Pokemon.swift */; };
+		BF805F372A0C697B0034450E /* Pokedex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF805F362A0C697B0034450E /* Pokedex.swift */; };
+		BF805F3B2A0C6DE80034450E /* PokedexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF805F3A2A0C6DE80034450E /* PokedexView.swift */; };
+		BF805F3F2A0C6E340034450E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF805F3E2A0C6E340034450E /* HomeView.swift */; };
+		BF805F412A0C726D0034450E /* PokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF805F402A0C726D0034450E /* PokemonView.swift */; };
+		BF805F452A0D7D6B0034450E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF805F442A0D7D6B0034450E /* LoadingView.swift */; };
+		BFA4052B2A2C22B10075A3AF /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4052A2A2C22B10075A3AF /* NewsView.swift */; };
+		BFA4052D2A2CF46B0075A3AF /* TwitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4052C2A2CF46B0075A3AF /* TwitterView.swift */; };
+		BFBAF45A2A1BEC0C00319B23 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBAF4592A1BEC0C00319B23 /* Gradients.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF2BAE862A292AC200906257 /* GenderPie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderPie.swift; sourceTree = "<group>"; };
+		BF805F1C2A0C03340034450E /* GODEX Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GODEX Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF805F1F2A0C03340034450E /* GODEX_ProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GODEX_ProApp.swift; sourceTree = "<group>"; };
+		BF805F212A0C03340034450E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF805F232A0C03350034450E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF805F262A0C03350034450E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF805F2D2A0C2F900034450E /* file_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = file_names.json; sourceTree = "<group>"; };
+		BF805F2F2A0C35010034450E /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		BF805F312A0C670B0034450E /* APIStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIStructs.swift; sourceTree = "<group>"; };
+		BF805F342A0C67960034450E /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		BF805F362A0C697B0034450E /* Pokedex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokedex.swift; sourceTree = "<group>"; };
+		BF805F3A2A0C6DE80034450E /* PokedexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexView.swift; sourceTree = "<group>"; };
+		BF805F3E2A0C6E340034450E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BF805F402A0C726D0034450E /* PokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonView.swift; sourceTree = "<group>"; };
+		BF805F442A0D7D6B0034450E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		BFA4052A2A2C22B10075A3AF /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		BFA4052C2A2CF46B0075A3AF /* TwitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterView.swift; sourceTree = "<group>"; };
+		BFBAF4592A1BEC0C00319B23 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF805F192A0C03340034450E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF2BAE812A291B9B00906257 /* SupplementalViews */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BAE862A292AC200906257 /* GenderPie.swift */,
+			);
+			path = SupplementalViews;
+			sourceTree = "<group>";
+		};
+		BF805F132A0C03340034450E = {
+			isa = PBXGroup;
+			children = (
+				BF805F1E2A0C03340034450E /* GODEX Pro */,
+				BF805F1D2A0C03340034450E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF805F1D2A0C03340034450E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF805F1C2A0C03340034450E /* GODEX Pro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF805F1E2A0C03340034450E /* GODEX Pro */ = {
+			isa = PBXGroup;
+			children = (
+				BF805F1F2A0C03340034450E /* GODEX_ProApp.swift */,
+				BF805F342A0C67960034450E /* Pokemon.swift */,
+				BF805F362A0C697B0034450E /* Pokedex.swift */,
+				BFBAF4592A1BEC0C00319B23 /* Gradients.swift */,
+				BF805F332A0C67710034450E /* API */,
+				BF805F212A0C03340034450E /* ContentView.swift */,
+				BF805F422A0C72820034450E /* SwiftUIViews */,
+				BF805F232A0C03350034450E /* Assets.xcassets */,
+				BF805F252A0C03350034450E /* Preview Content */,
+			);
+			path = "GODEX Pro";
+			sourceTree = "<group>";
+		};
+		BF805F252A0C03350034450E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF805F262A0C03350034450E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF805F332A0C67710034450E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BF805F2D2A0C2F900034450E /* file_names.json */,
+				BF805F2F2A0C35010034450E /* APIHandler.swift */,
+				BF805F312A0C670B0034450E /* APIStructs.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BF805F422A0C72820034450E /* SwiftUIViews */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BAE812A291B9B00906257 /* SupplementalViews */,
+				BF805F442A0D7D6B0034450E /* LoadingView.swift */,
+				BF805F3E2A0C6E340034450E /* HomeView.swift */,
+				BF805F3A2A0C6DE80034450E /* PokedexView.swift */,
+				BF805F402A0C726D0034450E /* PokemonView.swift */,
+				BFA4052A2A2C22B10075A3AF /* NewsView.swift */,
+				BFA4052C2A2CF46B0075A3AF /* TwitterView.swift */,
+			);
+			path = SwiftUIViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF805F1B2A0C03340034450E /* GODEX Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF805F2A2A0C03350034450E /* Build configuration list for PBXNativeTarget "GODEX Pro" */;
+			buildPhases = (
+				BF805F182A0C03340034450E /* Sources */,
+				BF805F192A0C03340034450E /* Frameworks */,
+				BF805F1A2A0C03340034450E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GODEX Pro";
+			productName = "GODEX Pro";
+			productReference = BF805F1C2A0C03340034450E /* GODEX Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF805F142A0C03340034450E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BF805F1B2A0C03340034450E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = BF805F172A0C03340034450E /* Build configuration list for PBXProject "GODEX Pro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF805F132A0C03340034450E;
+			productRefGroup = BF805F1D2A0C03340034450E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF805F1B2A0C03340034450E /* GODEX Pro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF805F1A2A0C03340034450E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF805F272A0C03350034450E /* Preview Assets.xcassets in Resources */,
+				BF805F242A0C03350034450E /* Assets.xcassets in Resources */,
+				BF805F2E2A0C2F900034450E /* file_names.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF805F182A0C03340034450E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA4052D2A2CF46B0075A3AF /* TwitterView.swift in Sources */,
+				BFBAF45A2A1BEC0C00319B23 /* Gradients.swift in Sources */,
+				BF2BAE872A292AC200906257 /* GenderPie.swift in Sources */,
+				BF805F3F2A0C6E340034450E /* HomeView.swift in Sources */,
+				BF805F352A0C67960034450E /* Pokemon.swift in Sources */,
+				BF805F3B2A0C6DE80034450E /* PokedexView.swift in Sources */,
+				BF805F452A0D7D6B0034450E /* LoadingView.swift in Sources */,
+				BF805F222A0C03340034450E /* ContentView.swift in Sources */,
+				BF805F372A0C697B0034450E /* Pokedex.swift in Sources */,
+				BF805F322A0C670B0034450E /* APIStructs.swift in Sources */,
+				BF805F202A0C03340034450E /* GODEX_ProApp.swift in Sources */,
+				BF805F412A0C726D0034450E /* PokemonView.swift in Sources */,
+				BF805F302A0C35010034450E /* APIHandler.swift in Sources */,
+				BFA4052B2A2C22B10075A3AF /* NewsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF805F282A0C03350034450E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF805F292A0C03350034450E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF805F2B2A0C03350034450E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GODEX Pro/Preview Content\"";
+				DEVELOPMENT_TEAM = 3UF45VT729;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tylervergin.GODEX-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF805F2C2A0C03350034450E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GODEX Pro/Preview Content\"";
+				DEVELOPMENT_TEAM = 3UF45VT729;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tylervergin.GODEX-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF805F172A0C03340034450E /* Build configuration list for PBXProject "GODEX Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF805F282A0C03350034450E /* Debug */,
+				BF805F292A0C03350034450E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF805F2A2A0C03350034450E /* Build configuration list for PBXNativeTarget "GODEX Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF805F2B2A0C03350034450E /* Debug */,
+				BF805F2C2A0C03350034450E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF805F142A0C03340034450E /* Project object */;
+}
